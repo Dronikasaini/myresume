@@ -34,7 +34,7 @@ const Projects = () => {
     <section  id="projects" className="p-6 md:p-24 bg-gray-900 mb-18">
       {/* Mirror Heading */}
       <div className="relative w-full flex justify-center items-center mb-32" >
-        <h3 className="absolute  abc font-extrabold text-6xl sm:text-8xl md:text-9xl text-gray-800 opacity-20 pointer-events-none select-none text-center">
+        <h3 className="absolute  abc font-extrabold text-5xl sm:text-8xl md:text-9xl text-gray-800 opacity-20 pointer-events-none select-none text-center">
           PROJECTS
         </h3>
         <h3 className="relative abc text-2xl sm:text-3xl md:text-4xl font-bold text-white text-center z-10">

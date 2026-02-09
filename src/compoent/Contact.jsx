@@ -38,7 +38,7 @@ const Contact = () => {
     <section  id="contact" className="p-12 md:p-24 bg-[#0f0f0f] text-center">
       {/* Heading with mirror background */}
       <div className="relative w-full flex justify-center items-center mb-12 abc">
-        <h3 className="absolute font-extrabold text-8xl md:text-9xl text-gray-800 opacity-20 pointer-events-none select-none text-center whitespace-nowrap ">
+        <h3 className="absolute font-extrabold text-5xl md:text-9xl text-gray-800 opacity-20 pointer-events-none select-none text-center whitespace-nowrap ">
           CONTACT ME
         </h3>
         <h3 className="relative text-3xl md:text-4xl font-bold text-white text-center z-10">
@@ -52,7 +52,7 @@ const Contact = () => {
       </p>
 
       {/* Contact Options */}
-      <div className="grid md:grid-cols-4 gap-16 max-w-5xl mx-auto mt-12">
+      <div className="grid md:grid-cols-4 gap-5 sm:gap-16 max-w-5xl mx-auto mt-12">
         {contactOptions.map((item, idx) => (
           <div
             key={idx}

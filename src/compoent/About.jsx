@@ -15,11 +15,11 @@ const itemVariants = {
 const About = () => {
   return (
     <section id="about" className="p-6 sm:p-12 md:p-24 bg-gray-850">
-<div className="relative flex justify-center items-center mb-32">
-  <h3 className="absolute font-extrabold text-6xl sm:text-8xl md:text-9xl text-gray-800 opacity-30 select-none">
+<div className="relative flex justify-center items-center mb-12 sm:mb-32">
+  <h3 className="absolute font-extrabold text-5xl sm:text-8xl md:text-9xl text-gray-800 opacity-30 select-none ">
     ABOUT ME
   </h3>
-  <h3 className="relative text-2xl sm:text-3xl md:text-4xl font-bold text-white z-10">
+  <h3 className="relative text-2xl sm:text-4xl  font-bold text-white z-10 gap-4 ">
     About Me
   </h3>
 </div>
@@ -28,7 +28,7 @@ const About = () => {
 
       {/* Main paragraphs */}
       <motion.div
-        className="max-w-full sm:max-w-3xl flex flex-col gap-6 mx-auto text-center px-4 sm:px-0 mt-5"
+        className="max-w-full sm:max-w-3xl flex flex-col gap-6 mx-auto text-center px-4 sm:px-0 mt-3 sm:mt-5"
         variants={containerVariants}
         initial="hidden"
         whileInView="show"
