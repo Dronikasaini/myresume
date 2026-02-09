@@ -11,7 +11,7 @@ const Contact = () => {
     {
       icon: <FaPhoneAlt />,
       title: "Phone",
-      info: "+91 9758306566",
+      info: "9758306566",
     },
     {
       icon: <FaEnvelope />,
@@ -35,10 +35,10 @@ const Contact = () => {
   ];
 
   return (
-    <section className="p-12 md:p-24 bg-[#0f0f0f] text-center">
+    <section  id="contact" className="p-12 md:p-24 bg-[#0f0f0f] text-center">
       {/* Heading with mirror background */}
       <div className="relative w-full flex justify-center items-center mb-12 abc">
-        <h3 className="absolute font-extrabold text-8xl md:text-9xl text-gray-800 opacity-20 pointer-events-none select-none text-center">
+        <h3 className="absolute font-extrabold text-8xl md:text-9xl text-gray-800 opacity-20 pointer-events-none select-none text-center whitespace-nowrap ">
           CONTACT ME
         </h3>
         <h3 className="relative text-3xl md:text-4xl font-bold text-white text-center z-10">
@@ -47,12 +47,12 @@ const Contact = () => {
       </div>
 
       {/* Description */}
-      <p className="text-gray-400 mb-16 max-w-2xl mx-auto abc">
+      <p className="text-gray-400  h-15 pt-8  max-w-2xl mx-auto abc">
         I'm open to work and collaborations. Reach out via any of the options below!
       </p>
 
       {/* Contact Options */}
-      <div className="grid md:grid-cols-4 gap-16 max-w-5xl mx-auto">
+      <div className="grid md:grid-cols-4 gap-16 max-w-5xl mx-auto mt-12">
         {contactOptions.map((item, idx) => (
           <div
             key={idx}

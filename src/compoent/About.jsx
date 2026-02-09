@@ -14,7 +14,7 @@ const itemVariants = {
 
 const About = () => {
   return (
-    <section className="p-6 sm:p-12 md:p-24 bg-gray-850">
+    <section id="about" className="p-6 sm:p-12 md:p-24 bg-gray-850">
 <div className="relative flex justify-center items-center mb-32">
   <h3 className="absolute font-extrabold text-6xl sm:text-8xl md:text-9xl text-gray-800 opacity-30 select-none">
     ABOUT ME
